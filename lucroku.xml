@@ -2,7 +2,7 @@
    "id":"1509428502953",
    "title":"Sample Stream",
    "content":{  
-      ...
+      "https://mma-media-process.s3.amazonaws.com/media/hls/abc/abc/play.m3u8"
    },
    "language":{  
       "en"
