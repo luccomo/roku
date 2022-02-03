@@ -1,0 +1,99 @@
+{
+	"providerName": "This is Luke",
+	"language": "en-us",
+	"rating": {
+		"rating": "G",
+		"ratingSource": "USA_PR"
+	},
+	"lastUpdated": "2020-08-14T02:01:00+02:00",
+	"liveFeeds": [{  
+          "id":"luc-greatest-show",
+          "title":"Luc Greatest Show",
+          "content":
+            {  
+            "dateAdded": "2020-08-15T02:39:11Z",
+            "language": "en-us",
+            "videos": [{
+                    "videoType": "HLS",
+                    "url": "https://mma-media-process.s3.amazonaws.com/media/hls/abc/abc/play.m3u8",
+                    "quality": "HD"
+                        }]          
+            },
+            "language": "en-us",
+            "thumbnail": "https://github.com/luccomo/roku/raw/main/rokuthumbtvu.png",
+            "shortDescription":"A live description",
+             "longDescription":"A longer description of a live stream",
+            "tags":[  
+              "linear",
+              "news",
+              "celebrity"
+            ]
+        }
+],
+	"series": [{
+		"id": "series_2_RSG",
+		"title": "SceneGraph Developers: Build a Channel",
+		"releaseDate": "2020-03-15T02:01:00+02:00",
+		"shortDescription": "The course teaches novice Roku developers how to develop a channel from the ground up with the Roku SDK. This course walks developers through each step in building a basic, high-performance Roku channel that passes certification. This course is ideal for developers that are new to the Roku platform and want a simple, streamlined path for quickly understanding Roku development.",
+		"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-build-channel-series.jpg",
+		"genres": ["educational"],
+			"tags": ["series"],
+			"episodes": [{
+					"id": "series-rsg_unit1_intro",
+					"title": "Introduction to the course",
+					"episodeNumber": 1,
+					"content": {
+						"dateAdded": "2020-05-07T02:32:24Z",
+						"videos": [{
+							"videoType": "MP4",
+							"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit1-intro-v3.mp4",
+							"quality": "HD"
+						    }],
+						"duration": 178,
+						"language": "en-us"
+					},
+					"thumbnail": "https://image.roku.com/ZHZscHItMTc2/video1-intro-course-v2.png",
+					"shortDescription": "Watch the introduction to the \"SceneGraph: Build a Channel\" development course. This video outlines the course syllabus.",
+					"releaseDate": "2020-05-07",
+					"longDescription": "Watch the introduction to the \"SceneGraph: Build a Channel\" development course. This video outlines the course syllabus.",
+					"tags": [],
+					"genres": [
+						"educational"
+					]
+				},
+				{
+					"id": "series-video13-certification-testing",
+					"title": "Certification Testing",
+					"episodeNumber": 14,
+					"content": {
+						"dateAdded": "2020-07-16T02:32:24Z",
+						"videos": [{
+							"videoType": "MP4",
+							"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit13-cert-testing-v3.mp4",
+							"quality": "HD"
+						}],
+						"duration": 848,
+						"language": "en-us"
+					},
+					"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit13-cert-testing.jpg",
+					"shortDescription": "Prepare your channel to be published to the Roku channel store.",
+					"releaseDate": "2020-07-16",
+					"longDescription": "Prepare your channel to be published to the Roku channel store. This lesson explains how to test your channel's design and performance and verify that it meets all of Roku's certification criteria using Roku's test automation software and automated testing tools. It provides a quick demo of Roku's Static Analysis tool, which detects certification-related issues with your channel's code and must be passed in order for your channel to be published to the Roku channel store.",
+					"tags": [],
+					"genres": [
+						"educational"
+					]
+				}
+			]
+		}
+	],
+	"playlists": [{
+		"name": "rsg_category_row",
+		"itemIds": ["series-video13-certification-testing", "series-rsg_unit1_intro", "luc-greatest-show"]
+	    }],
+	"categories": [{
+		"name": "TVU Networks Categories",
+		"playlistName": "rsg_category_row",
+		"order": "manual"
+	    }]
+}
