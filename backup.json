@@ -8,7 +8,7 @@
 	"lastUpdated": "2022-01-16T02:01:00+02:00",
     "playlists": [{
 		"name": "luc-show",
-		"itemIds": ["puc-producer","tvu-livestream", "series-rsg_unit1_intro" ]
+		"itemIds": ["luc-greatest-show","puc-producer", "series-rsg_unit1_intro" ]
 	    }],
 	"categories": [{
 		"name": "TVU Networks Categories",
@@ -18,31 +18,30 @@
 
 	"liveFeeds": [
         {  
-            "id":"tvu-livestream",
-            "title":"tvu-livestream",
-            "content": {  
-              "dateAdded": "2022-01-15T02:39:11Z",
-              "videos": [{
-                      "videoType": "HLS",
-                      "url": "https://mma-media-process.s3.amazonaws.com/media/hls/abc/abc/play.m3u8",
-                      "quality": "HD"
-              }],
-              "duration": 3600,
-              "captions": "",
-              "adBreaks": ["00:15:00", "00:30:00", "00:45:00"],
-			  "language": "en"  
-              },
-              "language": "en",
-              "thumbnail": "https://www.linkpicture.com/q/rokuthumbtvu.png",
-              "brandedThumbnail":"https://www.linkpicture.com/q/rokuthumbtvu.png",
-              "shortDescription":"A live description",
-              "longDescription":"A longer description of a live stream",
-              "tags":[  
-                "linear",
-                "news",
-                "local"
-                   ]
-              },
+          "id":"luc-greatest-show",
+          "title":"Luc Greatest Show",
+          "content": {  
+            "dateAdded": "2022-01-15T02:39:11Z",
+            "videos": [{
+                    "videoType": "HLS",
+                    "url": "https://mma-media-process.s3.amazonaws.com/media/hls/abc/abc/play.m3u8",
+                    "quality": "HD"
+            }],
+            "duration": 3600,
+			"captions": "",
+			"language": "en"  
+            },
+            "language": "en",
+            "thumbnail": "https://www.linkpicture.com/q/rokuthumbtvu.png",
+            "brandedThumbnail":"https://www.linkpicture.com/q/rokuthumbtvu.png",
+            "shortDescription":"A live description",
+            "longDescription":"A longer description of a live stream",
+            "tags":[  
+              "linear",
+              "news",
+              "local"
+                 ]
+            },
         {  
           "id":"puc-producer",
           "title":"Luc Producer",
